@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,600;0,700;1,600;1,700&display=swap');
+
+@layer base {
+	* {
+		box-sizing: border-box;
+	}
+}
+
+.pentagon-container {
+	position: relative;
+	background-image: url("/src/assets/svg/bg-pentagon.svg");
+	height: 313px;
+	width: 329px;
+}
+
+/* Items in circular position within position-error correction */
+.select-container, .items-circular--position {
+	padding: 7rem;
+	transform: rotate(-18deg)
+}
+
+
+/* Angles */
+.deg60 { transform: rotate(60deg) translate(145px) rotate(-60deg); }
+
+.deg72 {
+	position: absolute;
+	transform: rotate(72deg) translate(145px) rotate(-95deg);
+}
+.deg144 {
+	position: absolute;
+	transform: rotate(144deg) translate(145px) rotate(-144deg);
+
+}
+.deg216 {
+	position: absolute;
+	transform: rotate(216deg) translate(145px) rotate(-216deg);
+
+}
+.deg288 {
+	position: absolute;
+	transform: rotate(288deg) translate(145px) rotate(-288deg);
+
+}
+.deg360 {
+	position: absolute;
+	transform: rotate(360deg) translate(145px) rotate(-360deg);
+
+}
