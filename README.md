@@ -1,6 +1,8 @@
 # rock-paper-scissor-lizard-spock
 Rock Paper Scissors Lizard Spock - A Developer's Challenge
 
+https://huynguyen1989.github.io/me/posts/Rock-Paper-Scissor-Assignment/
+
 ### Objective
 
 Your challenge is to build out this Rock, Paper, Scissors game and get it looking as close to the design as possible. 
